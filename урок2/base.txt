@@ -1,0 +1,6 @@
+create database example;
+use example;
+create table users (
+	id  INT8,
+    name varchar(100)
+);

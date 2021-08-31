@@ -1,0 +1,3 @@
+mysqldump -uroot -p21 example > example.sql
+mysqldump -uroot -p21 -f sample < example.sql
+mysqldump -uroot -p21 --opt --where="1 limit 100" mysql --tables help_keyword > keyword.sql
